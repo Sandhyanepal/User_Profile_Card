@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Sara",
+        "email": "sara@gmail.com",
+        "address": "Bafal",
+        "phone": "9876543210"
+    },
+    {
+        "id": "2",
+        "name": "Sandhya",
+        "email": "sandhya@gmail.com",
+        "address": "Sanepa",
+        "phone": "9876543211"
+    },
+    {
+        "id": "3",
+        "name": "Ritu",
+        "email": "ritu@gmail.com",
+        "address": "Butwal",
+        "phone": "9876543212"
+    },
+    {
+        "id": "4",
+        "name": "Tina",
+        "email": "tina@gmail.com",
+        "address": "Delhi",
+        "phone": "9876543213"
+    },
+    {
+        "id": "5",
+        "name": "Dev",
+        "email": "dev37@gmail.com",
+        "address": "Bangalore",
+        "phone": "9876543214"
+    },
+    {
+        "id": "6",
+        "name": "Ravi",
+        "email": "ravi@gmail.com",
+        "address": "Pune",
+        "phone": "9876543215"
+    }
+]
