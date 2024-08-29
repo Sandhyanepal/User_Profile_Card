@@ -12,10 +12,9 @@ const Body = () => {
             {
                 employee?.map((emp) => {
                     return (
-                        <ul style={{ listStyle: "none" }} key={emp.id}>
+                        <div style={{ listStyle: "none" }} key={emp.id}>
                             <Card {...emp}/>
-                            
-                        </ul>
+                        </div>
                     )
                 })
             }

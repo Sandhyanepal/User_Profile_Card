@@ -4,21 +4,33 @@ import React, { useState } from 'react'
 const Card = ({ name, email, address, phone }) => {
 
     const [details, showDetails] = useState(false)
+    
 
     return (
         <div className='card'>
-            <h1>{name}</h1>
-            <h2>{email}</h2>
+            <h2>Name: {name}</h2>
+            <h3>Email: {email}</h3>
 
             {
                 details &&
                 <div>
-                    <h3>{address}</h3>
-                    <h4>{phone}</h4>
+                    <h4>Address: {address}</h4>
+                    <h4>Phone No: {phone}</h4>
                 </div>
             }
 
-            <button onClick={() => showDetails(!details)}>Show Details</button>
+            {
+                details && (
+                    <button onClick={() => showDetails(!details)}>Hide Details</button>
+                )
+            }
+
+            {
+                !details && (
+                    <button onClick={() => showDetails(!details)}>Show Details</button>
+
+                )
+            }
 
             
 
