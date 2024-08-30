@@ -4,20 +4,33 @@ import Card from './Card'
 
 const Body = () => {
 
-    const [employee, setEmployee] = useState(employees)
-
+    const [searchText, setSearchText] = useState('')
 
     return (
         <div className='body'>
-            {
-                employee?.map((emp) => {
-                    return (
-                        <div style={{ listStyle: "none" }} key={emp.id}>
-                            <Card {...emp}/>
-                        </div>
-                    )
-                })
-            }
+
+            <div className="search">
+                <input type="text"
+                    placeholder='Search Employee'
+                    value={searchText}
+                    onChange={e => setSearchText(e.target.value)}    
+                />
+            </div>
+
+            <div className='card-container'>
+                {
+                    employees?.filter((items) => {
+                        return searchText.toLocaleLowerCase() === "" ?
+                        items : items.name.toLocaleLowerCase().includes(searchText)
+                    }).map((emp) => {
+                        return (
+                            <div style={{ listStyle: "none" }} key={emp.id}>
+                                <Card {...emp} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

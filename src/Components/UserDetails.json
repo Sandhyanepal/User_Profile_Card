@@ -4,41 +4,48 @@
         "name": "Sara",
         "email": "sara@gmail.com",
         "address": "Bafal",
-        "phone": "9876543210"
+        "phone": "9876543210",
+        "image": "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724976000&semt=ais_hybrid"
+
     },
     {
         "id": "2",
         "name": "Sandhya",
         "email": "sandhya@gmail.com",
         "address": "Sanepa",
-        "phone": "9876543211"
+        "phone": "9876543211",
+        "image": "https://img.freepik.com/free-photo/portrait-female-tourist-visiting-great-wall-china_23-2151261878.jpg"
     },
     {
         "id": "3",
         "name": "Ritu",
         "email": "ritu@gmail.com",
         "address": "Butwal",
-        "phone": "9876543212"
+        "phone": "9876543212",
+        "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "4",
         "name": "Tina",
         "email": "tina@gmail.com",
         "address": "Delhi",
-        "phone": "9876543213"
+        "phone": "9876543213",
+        "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "5",
         "name": "Dev",
         "email": "dev37@gmail.com",
         "address": "Bangalore",
-        "phone": "9876543214"
-    },
+        "phone": "9876543214",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg"
+        },
     {
         "id": "6",
         "name": "Ravi",
         "email": "ravi@gmail.com",
         "address": "Pune",
-        "phone": "9876543215"
+        "phone": "9876543215",
+        "image": "https://www.pennmedicine.org/-/media/images/miscellaneous/random%20generic%20photos/young_adult_man_blue_shirt_smiling.ashx?mw=620&mh=408"
     }
 ]

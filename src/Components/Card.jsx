@@ -1,21 +1,22 @@
 import React, { useState } from 'react'
 
 
-const Card = ({ name, email, address, phone }) => {
+const Card = ({ name, email, address, phone, image }) => {
 
     const [details, showDetails] = useState(false)
     
 
     return (
         <div className='card'>
-            <h2>Name: {name}</h2>
-            <h3>Email: {email}</h3>
+            <img src={image} alt="" srcset="" />
+            <p>Name: {name}</p>
+            <p>Email: {email}</p>
 
             {
                 details &&
                 <div>
-                    <h4>Address: {address}</h4>
-                    <h4>Phone No: {phone}</h4>
+                    <p>Address: {address}</p>
+                    <p>Phone No: {phone}</p>
                 </div>
             }
 

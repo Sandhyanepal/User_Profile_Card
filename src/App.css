@@ -6,23 +6,76 @@
 
 .header{
     text-align: center;
-    background-color: rgb(229, 219, 204);
     padding: 20px 0;
+    box-shadow: 0 0 50px #ccc;
 }
+
+/* body */
 .body{
+    width: 80%;
+    margin: auto;
+}
+
+/* Search */
+.search{
     display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.search input{
+    width: 60%;
+    padding: 10px 0 10px 5px;
+    border-radius: 5px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-    width: 70%;
-    margin: auto;
+    width: 100%;
     padding-top: 50px;
+    padding-bottom: 45px;
 }
+
+/* Card */
 .card{
     padding: 20px;
     border: 1px solid black;
     border-radius: 5px;
     width: 350px;
+    text-align: center;
 }
-.card h2, h3, h4{
+.card p{
     padding-bottom: 7px;
+}
+.card img{
+    width: 70%;
+}
+
+/* Footer */
+.footer p{
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 425px) {
+    .card-container{
+        display: flex;
+    }
+    .card{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .card-container{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 80%;
+        overflow: hidden;
+        margin: auto;
+    }
 }
