@@ -8,10 +8,13 @@ const Card = ({ name, email, address, phone, image }) => {
 
     return (
         <div className='card'>
-            <img src={image} alt="" srcset="" />
+
+            {/* Details about employees to display in card */}
+            <img src={image} alt="" />
             <p>Name: {name}</p>
             <p>Email: {email}</p>
 
+            {/* Conditional Rendering for displaying additional information */}
             {
                 details &&
                 <div>
@@ -20,6 +23,7 @@ const Card = ({ name, email, address, phone, image }) => {
                 </div>
             }
 
+            {/* Conditional Rendering for toggle functionality of the button */}
             {
                 details && (
                     <button onClick={() => showDetails(!details)}>Hide Details</button>

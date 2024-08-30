@@ -9,6 +9,7 @@ const Body = () => {
     return (
         <div className='body'>
 
+            {/* For Search Function */}
             <div className="search">
                 <input type="text"
                     placeholder='Search Employee'
@@ -17,6 +18,7 @@ const Body = () => {
                 />
             </div>
 
+            {/* Displays Cards */}
             <div className='card-container'>
                 {
                     employees?.filter((items) => {
